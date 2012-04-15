@@ -35,7 +35,7 @@
 		79C12F3B153A4DB900620983 /* UILabel+ESAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ESAdjustableLabel.h"; sourceTree = "<group>"; };
 		79C12F3C153A4DB900620983 /* UILabel+ESAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ESAdjustableLabel.m"; sourceTree = "<group>"; };
 		79C12F40153A4DDC00620983 /* ESViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESViewController.xib; sourceTree = "<group>"; };
-		79C12F44153A557E00620983 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		79C12F44153A557E00620983 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = ESAdjustableLabel/Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 		79C12F09153A4A6A00620983 = {
 			isa = PBXGroup;
 			children = (
+				79C12F44153A557E00620983 /* Readme.md */,
 				79C12F1E153A4A6A00620983 /* ESAdjustableLabel */,
 				79C12F17153A4A6A00620983 /* Frameworks */,
 				79C12F15153A4A6A00620983 /* Products */,
@@ -82,7 +83,6 @@
 		79C12F1E153A4A6A00620983 /* ESAdjustableLabel */ = {
 			isa = PBXGroup;
 			children = (
-				79C12F44153A557E00620983 /* Readme.md */,
 				79C12F43153A4E2300620983 /* Sample App */,
 				79C12F42153A4E0D00620983 /* ESAdjustableLabel Category */,
 				79C12F1F153A4A6A00620983 /* Supporting Files */,
