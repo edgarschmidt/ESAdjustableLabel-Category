@@ -37,6 +37,7 @@ This repo includes a sample demo that illustrates how to use this category.
   * UILabel+ESAdjustableLabel.h
   * UILabel+ESAdjustableLabel.m
 2. Add the following line of code in the header file of the class where the UILabel you need to modify its size is located:
+
 ```objc
 #import "UILabel+ESAdjustableLabel.h"
 ```
