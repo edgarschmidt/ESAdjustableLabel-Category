@@ -13,8 +13,9 @@
 		79C12F23153A4A6A00620983 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C12F21153A4A6A00620983 /* InfoPlist.strings */; };
 		79C12F25153A4A6A00620983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12F24153A4A6A00620983 /* main.m */; };
 		79C12F29153A4A6A00620983 /* ESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12F28153A4A6A00620983 /* ESAppDelegate.m */; };
-		79C12F2C153A4A6A00620983 /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12F2B153A4A6A00620983 /* ESViewController.m */; };
-		79C12F2F153A4A6A00620983 /* ESViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79C12F2D153A4A6A00620983 /* ESViewController.xib */; };
+		79C12F3D153A4DB900620983 /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12F3A153A4DB900620983 /* ESViewController.m */; };
+		79C12F3E153A4DB900620983 /* UILabel+ESAdjustableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C12F3C153A4DB900620983 /* UILabel+ESAdjustableLabel.m */; };
+		79C12F41153A4DDC00620983 /* ESViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79C12F40153A4DDC00620983 /* ESViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		79C12F18153A4A6A00620983 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		79C12F1A153A4A6A00620983 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79C12F1C153A4A6A00620983 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		79C12F20153A4A6A00620983 /* ESAdjustableLabel-Info.plist */ = {isa = PBXFileReference; path = "ESAdjustableLabel-Info.plist"; sourceTree = "<group>"; };
+		79C12F20153A4A6A00620983 /* ESAdjustableLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESAdjustableLabel-Info.plist"; sourceTree = "<group>"; };
 		79C12F22153A4A6A00620983 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79C12F24153A4A6A00620983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		79C12F26153A4A6A00620983 /* ESAdjustableLabel-Prefix.pch */ = {isa = PBXFileReference; path = "ESAdjustableLabel-Prefix.pch"; sourceTree = "<group>"; };
-		79C12F27153A4A6A00620983 /* ESAppDelegate.h */ = {isa = PBXFileReference; path = ESAppDelegate.h; sourceTree = "<group>"; };
+		79C12F26153A4A6A00620983 /* ESAdjustableLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESAdjustableLabel-Prefix.pch"; sourceTree = "<group>"; };
+		79C12F27153A4A6A00620983 /* ESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESAppDelegate.h; sourceTree = "<group>"; };
 		79C12F28153A4A6A00620983 /* ESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESAppDelegate.m; sourceTree = "<group>"; };
-		79C12F2A153A4A6A00620983 /* ESViewController.h */ = {isa = PBXFileReference; path = ESViewController.h; sourceTree = "<group>"; };
-		79C12F2B153A4A6A00620983 /* ESViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESViewController.m; sourceTree = "<group>"; };
-		79C12F2E153A4A6A00620983 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ESViewController.xib; sourceTree = "<group>"; };
+		79C12F39153A4DB900620983 /* ESViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESViewController.h; sourceTree = "<group>"; };
+		79C12F3A153A4DB900620983 /* ESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESViewController.m; sourceTree = "<group>"; };
+		79C12F3B153A4DB900620983 /* UILabel+ESAdjustableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ESAdjustableLabel.h"; sourceTree = "<group>"; };
+		79C12F3C153A4DB900620983 /* UILabel+ESAdjustableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ESAdjustableLabel.m"; sourceTree = "<group>"; };
+		79C12F40153A4DDC00620983 /* ESViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +80,8 @@
 		79C12F1E153A4A6A00620983 /* ESAdjustableLabel */ = {
 			isa = PBXGroup;
 			children = (
-				79C12F27153A4A6A00620983 /* ESAppDelegate.h */,
-				79C12F28153A4A6A00620983 /* ESAppDelegate.m */,
-				79C12F2A153A4A6A00620983 /* ESViewController.h */,
-				79C12F2B153A4A6A00620983 /* ESViewController.m */,
-				79C12F2D153A4A6A00620983 /* ESViewController.xib */,
+				79C12F43153A4E2300620983 /* Sample App */,
+				79C12F42153A4E0D00620983 /* ESAdjustableLabel Category */,
 				79C12F1F153A4A6A00620983 /* Supporting Files */,
 			);
 			path = ESAdjustableLabel;
@@ -96,6 +96,27 @@
 				79C12F26153A4A6A00620983 /* ESAdjustableLabel-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79C12F42153A4E0D00620983 /* ESAdjustableLabel Category */ = {
+			isa = PBXGroup;
+			children = (
+				79C12F3B153A4DB900620983 /* UILabel+ESAdjustableLabel.h */,
+				79C12F3C153A4DB900620983 /* UILabel+ESAdjustableLabel.m */,
+			);
+			name = "ESAdjustableLabel Category";
+			sourceTree = "<group>";
+		};
+		79C12F43153A4E2300620983 /* Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				79C12F27153A4A6A00620983 /* ESAppDelegate.h */,
+				79C12F28153A4A6A00620983 /* ESAppDelegate.m */,
+				79C12F39153A4DB900620983 /* ESViewController.h */,
+				79C12F3A153A4DB900620983 /* ESViewController.m */,
+				79C12F40153A4DDC00620983 /* ESViewController.xib */,
+			);
+			name = "Sample App";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79C12F23153A4A6A00620983 /* InfoPlist.strings in Resources */,
-				79C12F2F153A4A6A00620983 /* ESViewController.xib in Resources */,
+				79C12F41153A4DDC00620983 /* ESViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +183,8 @@
 			files = (
 				79C12F25153A4A6A00620983 /* main.m in Sources */,
 				79C12F29153A4A6A00620983 /* ESAppDelegate.m in Sources */,
-				79C12F2C153A4A6A00620983 /* ESViewController.m in Sources */,
+				79C12F3D153A4DB900620983 /* ESViewController.m in Sources */,
+				79C12F3E153A4DB900620983 /* UILabel+ESAdjustableLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +197,6 @@
 				79C12F22153A4A6A00620983 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		79C12F2D153A4A6A00620983 /* ESViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				79C12F2E153A4A6A00620983 /* en */,
-			);
-			name = ESViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,6 +288,7 @@
 				79C12F34153A4A6A00620983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
