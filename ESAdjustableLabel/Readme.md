@@ -2,6 +2,7 @@
 #ESAdjustable Label Category
 
 Adjusting the size of a UILabel is a pain in the back. This category provides a couple of simple methods to make this process less painful:
+
 ```objc
 // Generic method. If minSize is set to CGSizeZero then
 // it is ignored
