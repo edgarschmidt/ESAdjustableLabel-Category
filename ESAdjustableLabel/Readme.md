@@ -33,7 +33,7 @@ Adjusting the size of a UILabel is a pain in the back. This category provides a 
 This repo includes a sample demo that illustrates how to use this category.
 
 ## How to use it in your projects
-1. Copy the two category files below in your project
+1. Copy the two category files below into your project
   * UILabel+ESAdjustableLabel.h
   * UILabel+ESAdjustableLabel.m
 2. Add the following line of code in the header file of the class where the UILabel you need to modify its size is located:
